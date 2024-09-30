@@ -50,17 +50,17 @@ var offset = mymap.getSize().x*0.15;
 
   searchBtn.addEventListener('click',(e:Event)=>{
     if(ipInput.value != ""){
-        fetch(`https://ip-api.com/json/${ipInput.value}`) // api for the get request
+        fetch(`https://freeipapi.com/api/json/${ipInput.value}`) // api for the get request
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        ipValue.innerText=data.query;
-        addressValue.innerText=`${data.country}, ${data.city} ${data.zip}`;
-        utcValue.innerText=data.timezone;
-        ispValue.innerText=data.isp;
+        ipValue.innerText=data.ipAddress;
+        addressValue.innerText=`${data.countryName}, ${data.cityName} ${data.zipCode}`;
+        utcValue.innerText=data.timeZone;
+        ispValue.innerText=data.regionName;
 
-        mymap.flyTo([data.lat,data.lon],14,{duration:2});
-        L.marker([data.lat, data.lon],{icon:locationIcon})
+        mymap.flyTo([data.latitude,data.longitude],14,{duration:2});
+        L.marker([data.latitude, data.longitude],{icon:locationIcon})
   .addTo(mymap)
   .openPopup();
 

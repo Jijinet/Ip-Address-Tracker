@@ -30,15 +30,14 @@ Users should be able to see hover states for interactive elements.
 
 ### Screenshot
 
-![PC View](./screenshots/Capture%20d’écran%202024-09-21%20110245.png)
-![Mobile view](./screenshots/Capture%20d’écran%202024-09-21%20110847.png)
+![PC View](./screenshots/Capture%20d’écran%202024-09-30%20205333.png)
+![Mobile view](./screenshots/Capture%20d’écran%202024-09-30%20205526.png)
 
 ### Links
 
 - Frontend Mentor solution url:https://www.frontendmentor.io/solutions/ecommerce-product-page-using-html-css-and-javascript-SlOl2D9mLb
-- Live Site URL: https://jijinet.github.io/e-commerce-product-page/
-- Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=G3YMUi-yWRgRgCya6Lgauw
-- GitHub repo : https://github.com/Jijinet/e-commerce-product-page
+- Live Site URL: https://jijinet.github.io/Ip-Address-Tracker-Typescript-Webpack-Sass/
+- GitHub repo : https://github.com/Jijinet/Ip-Address-Tracker-Typescript-Webpack-Sass
 
 ## My process
 
@@ -49,9 +48,10 @@ Users should be able to see hover states for interactive elements.
 ### Built with
 
 - Semantic HTML5 markup
+- Sass
+- Webpack
+- Typescript
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### Useful resources
