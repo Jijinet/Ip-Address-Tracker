@@ -50,7 +50,7 @@ var offset = mymap.getSize().x*0.15;
 
   searchBtn.addEventListener('click',(e:Event)=>{
     if(ipInput.value != ""){
-        fetch(`http://ip-api.com/json/${ipInput.value}`) // api for the get request
+        fetch(`https://ip-api.com/json/${ipInput.value}`) // api for the get request
     .then(response => response.json())
     .then(data => {
         console.log(data);
