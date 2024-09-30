@@ -35,7 +35,7 @@ Users should be able to see hover states for interactive elements.
 
 ### Links
 
-- Frontend Mentor solution url:https://www.frontendmentor.io/solutions/ecommerce-product-page-using-html-css-and-javascript-SlOl2D9mLb
+- Frontend Mentor solution url:https://www.frontendmentor.io/solutions/ip-address-tracker-using-webpack-typescript-sass-02Ea753qZO
 - Live Site URL: https://jijinet.github.io/Ip-Address-Tracker-Typescript-Webpack-Sass/
 - GitHub repo : https://github.com/Jijinet/Ip-Address-Tracker-Typescript-Webpack-Sass
 
